@@ -1,0 +1,3 @@
+IMU data processing pipeline with Streamlit dashboard for measuring jump height and time of ball contact in beach volleyball.
+Field tested the IMU-based jump height measuremnt in the sand and it worked well given as far as I can tell given the quality of the reference. It is new to sync the sensor clocks to see jump events and hits on the same timeline. 
+The idea behind this is to measure if you contacted the ball around the peak of your jump. There are still other elements to timing, such as if you contacted the ball with an outstretched arm so this could be misleading if you only go by this. Needs 2 Movesense IMUs.
